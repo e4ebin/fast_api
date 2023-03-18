@@ -30,9 +30,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/")
+@app.get("/active")
 def read_root():
-    return {"Hello": "World"}
+    return {"status": "active"}
 
 @app.post("/predict")
 async def get_data(data:Data,response: Response):
