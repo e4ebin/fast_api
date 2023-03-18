@@ -17,13 +17,13 @@ API powered using python Fast API
 Clone the project
 
 ```bash
-  git clone https://github.com/e4ebin/fast_api
+  git clone https://link-to-project
 ```
 
 Go to the project directory
 
 ```bash
-  cd fast_api
+  cd my-project
 ```
 
 Install dependencies
@@ -38,3 +38,16 @@ Start the server
   uvicorn main:app --reload
 ```
 
+## API endpoints
+
+check API accessibility
+
+```bash
+    http://localhost:8000/active
+```
+get prediction
+
+```bash
+  http://localhost:8000/predict
+```
+To get prediction the json request body should contain required parameters 
