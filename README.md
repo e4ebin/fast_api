@@ -17,13 +17,13 @@ API powered using python Fast API
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/e4ebin/fast_api
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd fast_api
 ```
 
 Install dependencies
