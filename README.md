@@ -43,7 +43,7 @@ Start the server
 check API accessibility
 
 ```bash
-    http://localhost:8000/active
+  http://localhost:8000/active
 ```
 get prediction
 
